@@ -1,0 +1,362 @@
+Thursday - SetUp R22 DIT for Rolex(6),Meeting for Interviews on Saturday(0.15),PayrollSimplification Feature overview(1)
+Friday - Analyze MCA access using  non TLM home company issue on portal(3),PayrollSimplification Tech Deep Dive ppt(1),checkin US419614(ADPTLM Webservices page) in R23 and promote
+----------------------------------------------------------------------------------------------------------
+Monday(4/18/2015) - Fix drop statement for sp - up_hybird_sel_IID_Messages_PayrollSimplification(0.5),Dev Meeting(1),Meeting on VDL Project(0.15),VDL Message Training(1),Analysis of Watson on Staging(1),MOM(0.5),set up VPC for VDL Messaging(2)
+Tuesday - VDL Messaging Meeting,Analyze staging watson,Recreate Staging Watson issue of object ref not found on clicking companylist in MCA(3),Defect on TLM Practitioner Flag not saving correctly(DE240816)
+Wednesday - Machine Restart(1),Deploy ADPTLM Webservices US to DIT(0.5),VDL Page - timesheetimport.aspx,payfrequencyselection.aspx,TimesheetErrors.aspx
+Thursday - Research Production issue - 15827590,VDL Meeting
+Friday - VDL Pages Messaging(12 pages),production issue analysis(1)(R21 IID going to R22 and also check for ADPTLM component)
+--------------------------------------------------------------------------------------------------------------
+Monday(4/25/2016) - Dev meeting(1),check mails(0.15),VDL Meetings(0.5),VDL Changes
+Tuesday - User story for Run Payroll UI Banner style US441580,Fixes for ADPTLM Service page US419614
+Wednesday - issues on ADPTLM Webservice page(Refresh Click),VDL Meeting(0.5),Multicompanylist VDL Messaging
+Thursday - Team Lunch,POC on EE Simplification,Meeting with Joe on EE Simplification(2)
+Friday - VDL Messaging(EmployeeClockidmapping.aspx),Disable button on ADPTLM Webservices Page,Run Payroll UI Errors issue
+--------------------------------------------------------------------------------------------------------------Monday(5/2/2016) - Dev meeting(1), ADPTLM Webservice page issues(1) date and for wholesale,POC Check(2) of Joe
+Tuesday - war room isue of crm,DE245090
+Wednesday - Add Tasks for Sprint 9,VDL Standup,VDL page for multicompanylist,DE244346 - R22 Patch G,Sanity check of R23 sandbox
+Thursday - issue on QA FIT - Disk space while testing DE244346,multicompanylist VDL save testing,April B'Day & AOM celebrations(1),Fix ADPTLM Webservice page issue for Wholesale
+Friday - Production issue on clicking Run Payroll Error(SD-16302331), investigation for Run Page crash on TLM incorect response,worked on a fix for ADPTLM Web service page
+--------------------------------------------------------------------------------------------------------------Monday(5/9/2016) - Dev meeting,System restart(1),Analyze ezlm Watson,Code changes for ezlm watson,
+Tuesday - Code changes for Checking ezlm clientId,Investigate Date issue on Run Payroll screen,changes to show webservice name,code review of Neelam
+Wednesday - R22 DIT configuration,R23 DIT configuration,Investigate Date issue on Run Payroll screen,
+Thursday - off
+Friday - Setup R23 VPC,Coordinate with John Byrne/Trevor on R22 DIT box NetSecure issue,DIT issue in R22, prod issue of Auto close discussion with Nupur,
+--------------------------------------------------------------------------------------------------------------
+Monday(5/16/2016) - Dev meeting(1),Check message when the payfreq in RUN and TLM doesn't match during Import,
+remove pending ezlm paydata file,Provide sql profiler data to Satish on Ezlm to ADPTLM Migration using Fiddler,Check VDL Payroll without Time Menu fix
+Tuesday - RUN Monthly Update,RR prod issue with Etimecard webservices screen,Resume Payroll PDE overwrite User story
+Wednesday - Investigated ezlm Migration Assesment Failure for 3 clients because 2 Terminated 1 not present in iFarm,reproduce and analyze why remove TNA reminder messages is blocking UI,SCR16366546,Resume Payroll code debugging
+Thursday - RR eTimecard web service issue,Resume Payroll debugging,DIT issue, ADPTLM webservice screen issue for Wholesale
+Friday - System Restart(1),Alignment issue in FireFox,Fixed the issue for wholesale users in DIT
+--------------------------------------------------------------------------------------------------------
+Monday(5/23/2016) - Dev meeting(1), UX show(0.5),DB restore check in Support for eTimecard issue,Update new Goals in iSucceed,ezlm Changes for Batch Processing
+Tuesday - Fix ADPTLM Webservice page menu issue,Ezlm Migration queueing check,Employee Simplification Discussion(1),Sprint 10 Elaboration(2)
+Wednesday - Certificate issue on DIT,ezlm Queueing,System issues,Code review of ezlm premigrationcheck
+Thursday - DE251460(raised DB task index on ipsys user messages for ezlm migration performance),Concurrent processing of ezlm jobs using ezlm queueing
+Friday - Node js Training,DE250732
+----------------------------------------------------------------------------------------------------------
+Monday(5/30/2016) - Dev meeting(1),Session on Component request(0.5),US492277 ezlm additional file
+Tuesday - US492277(ezlm additional file),lock service failure because of premigration service in DIT
+Wednesday - ezlm Lock issue on DIT,Date issue,INF on incorrectpay freqyency
+Thursday - 
+Friday - ESS issue in DIT check and coordinate with Build Team,Details of ezlm additional file and premigration service,Defect on Date Format issue,Update confluence with R23 DIT box details
+-------------------------------------------------------------------------------------------------------------
+Monday(6/6/2016)- Dev meeting(1),Date Format issue on PayData Error page,qa fit issue with Time Management Tile,DIT issue on ESS
+Tuesday - RR eTimecard webservices issue,check DB in support,SCR16460859 for Ezlm Migration,Investigate INF on two payperiods open and on clicking start payroll, it has an error,checking some scenarios for Resume Payroll,
+Help Neelam on RR issue - 16342475
+Wednesday - Meeting with TLM on additional file and PreMigration service,Elaboration on EE Simplification,Raised 2 DB tasks, 2 CCR requests, checkin and promote code changes for queueing
+Thursday - EE Simplification Elaboration(2.5),EE Simplification Elaboration(2.5),Ezlm queueing issues
+Friday - Checked queing in DIT,Discussion of RUN outage becoz of TLM Job,EE Simplification Elaboration(2.5)
+-------------------------------------------------------------------------------------------------------------
+Monday(6/13/2016) - Deploy sp -up_hybrid_upd_ADPTLM_SurfaceException_Message_status on DIT,Create Index on XF_ADPTLM_Messages table script,script to drop temp script,DB task for Patch J defect,
+Review Neelam's code
+Tuesday - Thursday - Vacation
+------------------------------------------------------------------------------------------------------------
+Monday(6/20/2016) -  Queue check on QA,DE257147(Patch J1),DM for Patch J1 is not applid on QA FIT and coordination with the Build Team,DE257690(DM for eTc Retry Values),16527357
+Tuesday - Code changes for Configuring payroll simp property values from DB,raised DB task - 5107,CCR - 2302,deployed on DIT,Queue test on QA FIT,DE258316
+Wednesday - SUB16539209(ADPTLM active clients),Unblock TLM for Run assessment failing at batch processing,queue analysis
+Thursday - CCR review with Shane,Code changes for ApiTimeout suggested by Shane,4 hours Botanical Garden outing
+Friday - DE259212,
+Saturday - ReissueAutoClose code changes
+-------------------------------------------------------------------------------------------------------------
+Monday(6/27/2016) - ReissueAutoClose validators refactor, allow zero hour to PayDataError Page,VPN issue
+Tuesday - Trainings,Conflict ResponsestatusCode for AutoClose research(Servicelient.cs),SCR16568229 to set Timeout of Adp.Run.v2.ADPTLM.PayrollSimpTimeOutPayCycleImport - 10000
+Wednesdya - OOO
+Thursday - Discussions on Production issues of payroll simplification entire day
+Friday - Zero Hours Fix
+-------------------------------------------------------------------------------------------------------------
+Monday(7/4/2016) - Merge code in R22 branch,Update Notes section in Patch K1 item,Checked in and promoted US519986 for patch K1,
+Raised DB task,Changeset - 135667
+Tuesday - Raise DB task(5127) & CCR(2310) for Timeout of PayCycleImport to 10000(DE261620),Discussion on Autoclose scenarios,
+DE261622(Patch L) for Timeout,DIT box for R22 sanity check,View timecards not accessible in DIT as TLM is down
+-----------------------------------------------------------------------------------------------------------
+Monday(7/11/2016) - Changeset - 138581,138601,138605,138607,139414
+Thursday - R23 Pilot Code changeset - 140044,DB Tasks
+
+------------------------------------------------------------------------------------------------------------
+Monday(7/18/2016) - Payroll simplification enhancement 7/21 release fixes and resume payroll stuck issue,
+discussion with TLM team on reconciliation and projected payroll,dry run for 7/22 demo(2.30)
+Tuesday - Unlock Paycycle R23(141757,141763,141816),Resume Payroll R23(141826),SD - 16671004 for 7/21 release,
+R22 Changeset(141910)
+--Worked on Saturdays and Sundays for 7/22 release
+Friday - Unity config overwritten in R23 for ADPTLM,Autoclose in Finish Later,Splunk Development
+---------------------------------------------------------------------------------------------------------------
+Monday(07/25/2016) - Dev meeting,Defect on AutoClose,Review with Sateesh
+Tuesday - DE267725,DE267728
+Wednesday - US459845(Update CSR role with TLM page/feature access),Unlock is triggered for PayrollwithoutTime on Cancel click
+Thursday - Merged and promoted code changes for Patch O item for webservices screen exception, Worked on defect  - Unlock is triggered for PayrollwithoutTime on Cancel click and deployed on DIT & promoted to R23,
+           Working on DE257354(Call payCycleSummary on click of start payroll),prod issue of trailing spaces(DE268685)
+
+Friday - Patch O code Merge
+-------------------------------------------------------------------------------------------------------------
+Monday(08/01/2016) - OOO
+Tuesday - Patch O US511816 Fixed & Promoted in R22
+Wednesday - Call PayCycleSummary on Start Payroll and show message,Build team not deployed Patch O item to R22 QA FIT,Investigated it and responded to Build team,Worked sometime on Tech Spike for importing hours to PDE,
+            Mailed Brett for MessageId & mock for defect - Call PayCycleSummary on Start Payroll and show message
+Thursday - Tech Spike to import Hours to PDE
+Friday - Data segregation/identification for reissue autoclose,Tech Spike to import Hours to PDE,check ezlm queue processing on QA
+-------------------------------------------------------------------------------------------------------------
+Monday(8/8/2016) - Ezlm Migration queue processing check,Dropped email to Shane
+Tuesday - Ezlm migration queue check,
+Wednesday - Defect for calling PayCycleSummary,Issue Mukesh had with ezlm service
+--------------------------------------------------------------------------------------------------------------
+Monday(08/15/2016) - Holiday
+Tuesday - OOO
+Wednesday - OOO
+Thursday - Add tasks,SCR
+Friday - Unlock issue in DIT,eTimecard service call,AOID integration call with ezlm
+---------------------------------------------------------------------------------------------------------------
+Monday(08/22/2016) - Dev Meeting(0.5),Checked the MCA issue on DIT,Verified the issue for latest time data not pulled in PDE in DIT
+Tuesday - CCR to update paydata werbservice json,Checked in and promoted code in QA FIT,issue with VM,Discussion with MJ on the Message for Pulling Paydata on click of resume payroll
+Wednesday - Changes not to call ssoiFrame when employee is not TNA enabled
+Thursday - PayCucleSummarycall DE257354
+Friday - Call with TLM team on Run Assessment service(1),Defect to call PaycycleSummary on start payroll click,Checked Pay Period Totals Grid appearing twice for etc but couldn't repro in FIT,paydatawebservice redirection in QA FIT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Monday(08/29/2016) - Patch Q code Merge,web tier issue
+Tuesday - Patch Q items testing on VM,Call with TLM on web tier issue,capture logs for Web Tier issue for MCA,
+Wednesday - Worked on eTimecard bucket defect from emp screen,discussed with Nupur on etimecard defect,Researched 2 log files being generated
+            in QA FIT from 08/20,and in PM scheduler is configured to run only when the user is logged in
+Thursday - Check emails,Scheduled task configuration change for Run whether User is logged in or not,researched on why in QA FIT scheduled task is running twice,SUB for one time file for EPKO Clients
+Friday - Fixed a defect for eTimecard in DIT, Wrote queries for pay frequency and earnings change,
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Monday(9/5/2016) - Holiday
+Tuesday - sprint 3 demo,eTimecard intermittent issue,Sprint Review with Raj
+Wednesday - Code Review of Venkat for logs,working session with Siva on certificate issue,Defect on Resume payroll
+Thursday - Resume Payroll for zero hours defect
+Friday - Integration and unit test cases for zero hours scenario,started working on Three buttons user story
+-------------------------------------------------------------------------------------------------------------------
+Monday(9/12/2016) - Dev meeting,ppt on Resume payroll,discussed with Sateesh on same,message change work,3 buttons US
+Tuesday - Off
+Wednesday - Spent time with Venkat on setting up Tnaservice,Review DB task for Splunk log,Working on 3 button User story
+Thursday - Explained Venkat the Files to be Merged,
+Friday - Off
+--------------------------------------------------------------------------------------------------------------------
+Monday(9/19/2016) - Dev meeting,Dep SOR
+Tuesday - off
+Wednesday - Dep SOR
+Thursday - Patch A defect, Pilot for Resume payroll paydata pull onto PDE
+Friday - ezlm queue Multiversion fix
+--------------------------------------------------------------------------------------------------------------------
+Monday(9/26/2016) - Dev meeting,Reissue not called on iFrame having three buttons,
+Tuesday - Make changes to Pilot table,Got the changes for Resume payroll reviewed by Nathan,Elaboration for emp sync enhancements
+Wednesday - SCR17032183,DE283234 for reissue Autoclose,Raised DB Task and CCR for Resume Payroll in Patch A
+Thursday - Patch A item
+Friday - Patch B defect
+--------------------------------------------------------------------------------------------------------------------
+Monday(10/3/2016) -  Dev meeting,TLM status,Pilot for Review Timecards
+Tuesday - Patch B(Resume payroll)
+Wednesday - Patch B(Resume Payroll)
+Thursday - Spent time with Performance team on some environment issues,analyzed code for ezlm Migration production file taking 40 mins to complete,sql dev team told it used to take same time with SCR
+           Discussion on non payroll users not having access to Action,Department of SOR calling code from Facade
+Friday - Resume Payroll
+-----------------------------------------------------------------------------------------------------------------
+Monday(10/10/2016) - Dev meeting,
+Thursday - Transfer to Payroll Flag being changed and hence Reg hours manually entered on PDE are not retained or replaced with time from TLM,
+           Ezlm Migration issue root cause
+Friday - Raised SCR17126348 for SEND_TO_TNA update
+--------------------------------------------------------------------------------------------------------------------
+Monday - Dep SOR
+Tuesday - SCR17147582,check on schedulers which are being used by TLM,Checking the code where hour conversion is being done for eTimecard,Sprint Planning(2) for EE Simplification
+Wednesday - Update SCR with client list and update the query in the SCR for Pilot clients,winded up some minor changes for SOR item,Sprint Planning(2) for EE Simplification
+Thursday - Off
+Friday - emails,apply leave,rescheduled SCRs for Pilot clients,Retrycount value to 300 for Batch Processing,Helped Venkat in setting up DIT box
+---------------------------------------------------------------------------------------------------------------------------
+Monday(10/24/2016) - Dev meeting,Technical sizing(2),functional sizing(2.5)
+Tuesday - US583162
+Wednesday - US583162
+Thursday - US583161,Checked in the skeleton Code for Pilot to unblock Neelam & Venkat,Working on trigger points for generating the Sync in Synchandler
+Friday - US583162
+---------------------------------------------------------------------------------------------------------------------------
+Monday(10/31/2016) - US583162,Diwali fest(5),DIT issue for ISI registration,checking the trigger points for employee sync in new hire wizard and maintenance flows on data actions for which the sync are getting generated for new hire
+                     created a task for cod erfactoring which was done moving Saving messages to Helper
+Tuesday - Checked in DIT for IID provisioning and working fine,Checked retry mechanism for adptlm batch processing,Ran a trace to see sp calls from IID selection selection screen,
+          Splunk logging of Technical discussion on EE Simp Supervisor scenarios,verified toolapiportal url issue in DIT,CRM issue
+,SSO issue
+Wednesday - 22728799,22728805 update SCR 17032183,Included reasoncode for request api and made minor changes and deployed the technical user story to call Employee sync api,employee status change part and Working on Logging part of the service call
+Thursday - Added some logging in Adp.Hybrid.Tna project,SCR is updated with 2 test clients for Pilot,Review by Sateesh,Created new Pilot property and Raised DB task,Raised CCR
+Friday - Reviewed the code changes of Neelam & Venkat,Got the CCR approved by Shane,Worked on Splunk facade changes for eTimecard and will be continuing with it 
+----------------------------------------------------------------------------------------------------------------------------
+Monday - Dev meeting,AE Action items,Added missing Header fields and Update TNAEmployeeSyncRequest for PositionId,Coordinate with Sarita posting Turnoff request to TLM,working on Hourly to Salary Change for sending the sync
+Tuesday - Send Sync when there is Hourly to Salary change and include reasoncode in Request api accordingly,Some existing issue while data is sent to SyncHandler when PayType field is updated,checking it,Supervisor technical discussion(2),Kick off meeting(0.5)
+Wednesday - Closed the third technical story after Review with Sateesh,Made some review changes,Checked in and deployed the code in DIT,servicemessagetype change suggested by Sateesh,checked in Splunk logging for eTimecard
+http://adptlmiws-dit.nj.adp.com:3000/tlm/api/v1/AssociateV2
+Thursday - Tech user story sizing,splunk logging,AOID Sync issue,had to make minor code change and deployed in DIT,elaboration(3)
+Friday - Web services page issue reported by Brett,Headers in Splunk, Splunk Logging user story,
+index=_* OR index=* sourcetype=Adp.Run.V2.ADPTLM-too_small Headers 89825383 Headers="Headers for IID = 89825383"
+----------------------------------------------------------------------------------------------------------------------------
+Monday - Dev meeting(1),webstub sent for deployment on Perf environment,Had a check of Pilot SCR,Discussed with Sateesh on User story for delete,Added tasks for User stories
+Tuesday - Worked on recovery of 2 jobs submitted in ipsys_jobqueue in prod,Support DB is not restored, so coordinated with the Production support team(Dev team) and got the data for the jobs in submitted state
+          Analyzed the data and sent an email to Janine with the recovery of the jobs,Started working on the technical user story,working on tech user story for calling employeeref api for supervisor,perf check,entity task independent to Neelam
+          Scrum+Retro+Elaboration(1.5)
+Wednesday - Reviewed code sketelon written by Venkat for functional user story,Working on Technical user story to call EmployeeRefApi for Turnoff/Terminate scenarios,Worked on Facade changes and minor changes in Facade would be required,Worked on parsing the response json and passing the result to Web,
+            Created New property for Timeoutvalue of Validate call
+Thursday - Machine Restart(0.5),3.15 - New changes discussion(4.45),ADPTLM,TLMMigration,adp.hybrid.tna,tnaservice,payrollsimp,compgroup,tnausersyncnozier
+Friday - 12- 3(Watson)
+
+---------------------------------------------------------------------------------------------------------------------------
+Monday(11/21/2016) - Off
+Tuesday - 11-11.30(Mails),11.30 - Tech story refactoring
+Wednesday - 11.30 - Refactoring
+Thursday - Team outing
+Friday - 11.30-12(emails,VPC startup),VDL &Code Merge discussion(1),check issue for terminate sending EmployeeSIA,2.30(adptlmwebservices page)3.30 - 
+-----------------------------------------------------------------------------------------------------------------------------
+Monday(11/28/2016) - check emails & vpc startup(0.5),Dev meeting(1),Parsing ValidateDeleteApi Response and returning the result to web based on Business validations,Related changes in EmployeeSyncFacade
+                     I have to call ADPTLM facade in Employee project and make related changes in ADPTLM Facade,minor changes in Employee Sync Facade would remain
+Tuesday - ValidateDelete US
+Wednesday - 11.15 - 11.30(machine restart),11.30 - 11.45(emails),11.45-
+Thursday - 11.30 - 12 Discussion & Delete issue,12-ESS issue,Message changes in Facade(2),payCycleSummary issue in DIT,Scrum+elaboration(2)
+Friday - 11.30 - 11.45(emails),11.45 - Delete issue,Splunk log for Headers,Code Review(2),
+---------------------------------------------------------------------------------------------------------------------
+Monday(12/5/2016) - Dev meeting,Created Tech story - US609364 for splunk logging for ezlom Migration,Added tasks for sized user stories,Reestimated along with Binod,5 - Supplemental paycodes not getting pulled to PDE,Completed 2 Trainings
+Tuesday - 11.30 - 11.45(emails & machine start),11.45 - 1(prod issue),1- 2(Code checkin to Dev branch),3-6(istlmpractitioner user story),Checked in Code to Development Branch,set up Latest VPC for code Merge,6.30-7(Scrum),7-7.30(SCR17572822 for Pilot turn off)
+Wednesday - 11.30-11.50(emails & machine start),12 - 12.30(KT)12.30-2(Code Merge),2-2.50(Lunch),3-5.30(Code Merge other web projects),5.30-8(Scrum Call+Retro),8-9(Code Merge)
+Thursday - 11.30 - 2(Call on Prod issue,try prod issue,,emails,machine),2-3(Lunch),Neelam Farewell(1)
+Friday - 11.30 - 11.45(emails & machine startup),12-2(Prod issue),2-3(Lunch),3-3.30(ESS issue),3.30 - 5.45(PDE issue)
+----------------------------------------------------------------------------------------------------------------------
+Monday(12/12/2016) - 11-11.30(machine start & emails),11.30-1(Dev meeting),1-2(Lunch),Scrum(0.5),2-9(VDL Merge and issues in Local)
+Tuesday - 11.18 - 11.40(machine start & emails),11.40-11.55(discussion on Rally),12-2(VDL Message for Cont),2-2.30(Lunch),20.30-3.30(Machine prob),Deployement(3-9)
+Wednesday - 10.30 - 12(Checkin Web changes),12-1(eTimecard VDL check),2-2.30(Lunch),2.30 - 3.30(Contractor Page VDL),3.30-3.45(Verified Delete for Api calls),4-(VM restart),isTLMPractitioner user story
+Thursday - 11.30 - 12(emails & machine start),Worked on Functional story to allow Payroll when there are hours in Exception Summary,looking at the user story for generation of reminders for istlmpractitoner flag
+Friday - OOO
+----------------------------------------------------------------------------------------------------------------------
+Monday(12/19/2016) - OOO
+Tuesday - OOO
+Wednesday - 11.30 - 12(eMAILS &Machine start),12-1.30(istlmpractitioner),1.30-2.30(Lunch),2.30-4.30(Tech Design Meeting),4.30 -6.30(MCa tlmpractitioner),6.30-7(Scrum),7-Supplmental paycode
+Thursday - 11.15 - 11.30(emails & machine startup),11.30 - 1.30(supplemental paycode issue),1.30 - 2.30(Lunch),2.30 - 3.45(Tech story sizing)
+Friday - 11.1130(emails & machine startup),11.30 - 1(identify outstaning items,estimate,Discussion on Hardening Sprint),3-3.30(discussion with Raj),followup on DIT siteminder issue with John(0.5),set up etimecard service to check flow for how supplemental codes are pulled to PDE and data is imported on Finish Later,Sprint Review(0.5)
+Saturday - Resume Payroll Implementation with eTimecard(DE284400)
+-----------------------------------------------------------------------------------------------------------------------
+Monday(12/26/2016) - 11.15 - 11.30(emails & nachine startup),Resume Payroll issue
+Tuesday - 11.15 - 11.35(machine start),11.35 - 12(discussion with Binod),supplemental paycode check,Resume Payroll fix,Zero Hours,discussion with Brett
+Wednesday - 11.11.30(emails,machine start,discussion  with Binod),Resume Payroll depts check,Call with Nathan(2),Take Nathan's code and check once
+Thursday - 11.11.40(machine restart & emails),Check Resume Fix,Discussion on Known issues and possible code changes,Functional user story analysis(1)
+Friday - Functional story on tlm only role,Resume Payroll fix
+-------------------------------------------------------------------------------------------------------------------------
+Monday(01/02/2017) - 11.11.30(emails & machine startup),Dev meeting(1),Resume Payroll discussion with Nathan
+Tuesday - 11.11.30(emails & machine startup),Discussion with Raj(1),
+Wednesday - Friday (Patch M items for Resume Payroll)
+------------------------------------------------------------------------------------------
+Monday(01/09/2017)-DE307796 -suppl,197254
+Tuesday - 11.15 - 11.30(machine startup & emails), 11.30 - 1.30(Tech design walkthrough),30058979,
+Wednesday - Pilot Implementation for New Hire,Deploy Tech stories in DIT,Made code changes in Workflowevent Handler for ADPTLM,Had a conversation with Pete on Websphere configurations in QA FIT,Checked for home page reminder messages for MCA owner are available on next login,VDL Message for TLM functional Breakage
+Thursday - Shelved the changes for New Hire Tech stories for code Review, VDL Bug for functional breakage,DIT ESS registration issue,
+Friday - OOO
+---------------------------------------------------------------------------------------------
+Monday(01/16/2017) - Discussion on Technical stories,VDL Bug 199 for contradictory iser experience,add tasks for user stories
+Tuesday - 11 - 11.30(machine startup & emails),Facde code changes for ClientConfigApi,Index on TLM Timecard History, Raised DB task for it,Working on Facde changes for calling ClientConfigData Api,Scrum call+prod issue discussion(1)
+Wednesday - 11.1130(emails & machine startup),Raise DB Task and CCR for clientConfigData Timeout Api(1),Worked on converting Response to the timesettings entity(2),Handling Failure scenarios for clientConfig Api call(4)
+Thursday - 11.15 - 11.45(emals & machine startup),LoadTimeconfig Data and save the data to DB
+Friday - 11 - 11.30(emails & machine startup),discussion with Binod(1),Discussion with Sateesh On DataIsland(0.5),ESS Registration in DIT,DIT NH issues,Remove sendToTna employee,
+-------------------------------------------------------------------------------------------------------------
+Monday(01/23/2016) - Remove SendToTna from PayrollInfo(US)
+Tuesday - 11 - 11.30(emails & machine startup),Remove Payroll Info,Previous and other for button movements,
+Wednesday - 11 - 11.30(emails & machine startup),
+Thursday - UI issues
+Friday - UI issues
+------------------------------------------------------------------------------------------------------------
+Monday(02/06/2017) - Dev meeting(1),Added task for the stories,looked into validatetimesettings Api response from TLM not coming properly,
+------------------------------------------------------------------------------------------------------------
+Monday(2/13/2016) - RoadRunner sanity,issue of Next button click in QA
+Tuesday - VDL Bugs
+Wednesday - Stuart TownHall,VDL Bug Fix,Code Review for 2 stories with Sateesh,remove Timesettings from Maintenance screen,Tech story for handling sor payroll
+Thursday - Tech story
+Friday - emails for Simpleterm failure story
+-------------------------------------------------------------------------------------------------------------
+Monday(2/20/2017) - Dev meeting,
+Tuesday - emails for simple term story
+Wednesday - deployed email for simple term,Fixed QA FIT sanity issue for Maintenance page,
+Thursday - Changes to emails as per Brett Suggestion,discussion with Sateesh on Overlay page,dsicussion with Sateesh on Geolocations and discussion with MJ on Geolocations
+-------------------------------------------------------------------------------------------------------------
+Monday(2/27/2017) - Sprint Stories
+Tuesday - Sprint Stories
+Wednesday - Sprint Stories
+Thursday - 
+-------------------------------------------------------------------------------------------------------------
+Wednesday - Check DIT box cookies issue, Check Stub setup on performance environment,VDL Bug on MCA Page,Debug DIT box issue
+Thursday - 
+--------------------------------------------------------------------------------------------------------------
+Tuesday - set Tna services on myADP Sandbox,RR issue fix,Had a call with Dave on 404 error in eTimecard if any security aspect is blocking the url,
+Thursday - MV defect fix,Badge fix in DIT,Messages change for turnoff/Terminate in DIT,MB issue of callet
+Friday - Wrote Logs for SimpleTimeController,Requested Build Team to enable logs in QA FIT,Checked ezlm employee sync webservice issue along with Surya,NewHireSIA issue in DIT because of deployment
+------------------------------------------------------------------------------------------------------------------
+Monday(3/20/2017)- Checked etimecard issue in DIT,Checked EmployeeSIA for non pilot clients in qafit,NewHireSIA not getting triggered for pilot client,deployed code for single supervisor code in DIT
+Tuesday - eTimecard issue check in FIT for sanity,Check Ezlm Finish Later button functionality and close the defect,call out changes for IE11,size tech stories
+Wednesday - Checked the Timesettings tab issue code overwritten in FIT,Worked on Tech story for adding hostedTimecards &additional featuresenabled in config,Reviewed the changes for etimecard defect made by Venkat,worked on iFrame Loading,splunk logger for Performance team
+Thursday - Work on iFrame POC,Townhall with Rich,VDL issue check along with Venkat
+Friday - NewHire/Simple Term Demo to Raj(2),Check etimecard issue of myADP with the help of Surya,
+---------------------------------------------------------------------------------------------------------------
+Monday(3/27/2016) - Off
+Tuesday - Off
+Wednesday - Holiday
+Thursday - Reviewed the DB task for the MessageId,Working on Loading iFrame POC
+Friday - iFrame POC,SD18974374(SimpleTermAndNewHire)
+---------------------------------------------------------------------------------------------------------------
+Monday(4/10/2016) - Fix MV Defect for column added for NewHire,size story,add tasks for the tech stories,working on tech story iFrame load
+Tuesday - Prepared draft ppt for Tech DeepDive,
+-------------------------------------------------------------------------------------------------------------------
+Monday - Tech story
+Tuesday - Tech Deep Dive Prep Meeting,Checked the DIT box client creation issue,Also checked the user registration issue in DIT,Checked with Gabi on Pilot Client SCR for R24,Saradhi Made an offline request to check some changes he made with new url of iFrame,Worked on Tech story of EEProfile API(Almost done with it, will get code reviewed)
+----------------------------------------------------------------------------------------------------------------
+Monday(5/8/2017) - Functional story for EE Maintenance
+Tuesday - Discussion with Raj on current production defects, discussion with Binod on closing the defects,Look into Watson issue for COMPANY_NAME_1099,Check employee rate issue in VPC,Check terminate employee when sendToTna is No
+Wednesday - Sprint stories
+Thursday - Raised a SUB t track the employees with NewHireSyncRequest,Started looking into IIS logs for the prod issue on IEE for sometime,Discussion with TLM team on the prod issues,Fixed the Patch G items for Term Sync and Watson,Fixed the supervisor issue in DIT,
+----------------------------------------------------------------------------------------------------------------
+Wednesday(5/17/2017) - Fixed the issue of NonHomeTLMMCA company in DIT,DB task for TnaRedirect,Webstub demo prep,discussion with Binod on tech story,Message on payroll Info,Checkin Code for TnaRedirect,MCA partner issue
+Thursday - 
+-----------------------------------------------------------------------------------------------------------------
+Monday(5/22/2016) - QA FIT issues
+Tuesday - QA FIT issues
+
+-----------------------------------------------------------------------------------------------------------------
+Thursday(06/15/2016) - Validated the Messages with Karthik,sitting with Karthik and assisting for any help
+
+-------------------------------------------------------------------------------------------------------------------
+Monday(06/26/2017) - Holiday
+Tuesday - Verified both the SCRs - Enable Maintenance and set Pilot Flag to '0',Worked on User story for disabling eTc,deployed it in DIT with RoleId-100 and checked,
+          Discussed with Arun on the issue in myADP sandbox, provided Files which might be missing,Started working on User story for enabling ESS for Employees before ezlm Migration
+Wednesday - Work on US734685(Turn on ESS during ezlm Migration)
+Thursday - Analyse eTimecard prod issue - Duplicate row in PDE(2.5),
+Friday - 
+---------------------------------------------------------------------------------------------------------------------
+Monday(07/03/2017) - PDE issue
+Tuesday - ibstall VM Player 12.1,help karthik on dev start,
+Wednesday - Going through code of Zerossn(Adp.Run.Zerossn),Self Service EIN call with Steve,Wole,Graham(1.5),Sprint Planning
+Thursday - Research on Self Serve EIN
+Friday - Research on Self serve EIN
+----------------------------------------------------------------------------------------------------------------------------
+07/10 - 07/14 - Working on Task creation of Tax SWAT Self serve EIN
+----------------------------------------------------------------------------------------------------------------------------
+07/17 - SBS Day Outing
+07/18 - Check Messages for Notifications popup provided by Christine,Generate a notification popup in VM with original message
+        Update Table schema for APPLIED_FOR_EIN_CONFIG table with the new columns provided by Cory,Update stored procedures accordingly
+07/19 - Analyzed EditEE Sync issue of TLM,Check for duplicate task creation,multiple states,Went through code changes,Unit test cases,Exception Handling
+-------------------------------------------------------------------------------------------------------------------------------
+07/31 - Checked in the slider code to Dev folder(294960),Deployed to SB
+08/01 - Checked the tables for Purge,Meeting with Phil on BCR Project
+---------------------------------------------------------------------------------------------------------------------------------
+08/07 - Dev meeting(1),Jenkins session(1),Deployment to Sandbox(1),Mark task as completed(1),questions on US769687
+08/08 - Jenkins session by Karthik(1),Analysis of Jurisdictions page code,It is a vb6 code,defect for multiple jurisdictions
+08/09 - Discussion with Steve on US769687,Work on US769687,deploy it to sandbox,TLM meeting with Phil
+08/10 - Code Review with Amar on US769687,Discussion on Termination date in Future,Fixed defect on home page notifications being on clicking the task,worked on the user story for Don't qualify(80%),MessageId from Christine pending
+	Need a suggestion on Termination date in Future
+----------------------------------------------------------------------------------------------------------------------------------
+09/11 - 1) I Don't Qualify button - WIP, EIN APPLIED FOR DATE - done,Omniture logging - done,Message changes check - Work with Christine
+9/12 - I Don't Qualify button(NA is not saved) - done,SEM for I Don't qualify
+9/13 - SEM for I Don't qualify - done,Omniture logging explore
+9/14 - Checked the Messages which Christine provided, Also I was working with other team who are also working on omniture and we were able to log the Notification clicks and Remind Me Later button as well, 
+	once Gordon is in think we should be in much more good shape on omniture.Provided creds of sandbox and details to Cory.
+
+9/21 - Checking the code to show a message for the NA issue which Ravi was saying yesterday, Checking few scenarios on QA
+-------------------------------------------------------------------------------------------------------------------------------------------
+10/16 - Discussion with AVS team on tax notices,check tax notices POC code to call qa fit url
+10/17 - Check Amendments search Api, try to call Amendments Api,
+
+10/24 - we have discussed on our undersatnding from the upload Api discussion that we had yesterday and drafted the questions. notices team here is handling the NRSM system and they got it
+        recently.Regarding the separate categoryid for SBS clients, they said they will use the existing categoryid and also the location would be same for them to access the documents and regarding the common identifiers between two systems it is BR/CO codes
+        at any point of time BR/CO code is unique to a company across ADP.Regarding the clientId and clientsecretkey for upload Api, we will have to talk to SME sometime.
+        We have also a meeting with Amendments team today. We are planning to have a design review with Steve in a day or two.Cory, I have sent you the confluence link which notices team shared to coordinate for any queries.
+
+10/26 - Discussion on Gaps in analysis for View notices Api,Created User stories for them to have in current sprint,
+11/2 - 
